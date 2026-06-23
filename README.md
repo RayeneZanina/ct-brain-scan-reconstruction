@@ -108,7 +108,7 @@ The model outperforms the FBP for low dose, but for a higher dose it starts fitt
 
 <img width="658" height="459" alt="image" src="https://github.com/user-attachments/assets/08e60084-96d0-4ca3-9a34-0f437de28e4d" />
 
-With a larger dataset, this model could theoretically learn the manifold of healthy images better, but it is very restricted right now due to the small dataset.
+With a larger dataset, this model could theoretically learn the manifold of healthy images better, but it is very restricted right now due to the small dataset. Another point I want to mention is that, theoretically the AAE can also generate a lot more images which can be used to train an unrolled network to learn the optimization steps, which would make the whole optimization process a lot faster.
 
 
 
